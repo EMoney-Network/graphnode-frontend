@@ -13,11 +13,13 @@ const CampignCard: FC<TCampignCard> = ({ title, subTitle }) => {
         <Image
           src={"/images/sample-quest.png"}
           alt="quest-img"
-          className="max-w-[350px] rounded"
+          className=" w-full rounded"
           width={409}
           height={226}
         ></Image>
-        <div className="font-bold text-xl  line-clamp-2">{title}</div>
+        <div className="font-bold lg:text-xl text-base  line-clamp-2">
+          {title}
+        </div>
         <div className="font-medium text-opacity-80 text-white">{subTitle}</div>
         <div className="flex">
           <div className="text-[#2FF337] rounded-lg  bg-[#1D3C1A] p-1.5 flex space-x-1 items-center text-sm font-semibold">
