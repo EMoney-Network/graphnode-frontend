@@ -12,3 +12,9 @@ body {
   margin: 0;
 }
 
+.slick-next::before{
+  content: none !important;
+}
+.slick-prev::before{
+  content: none !important;
+}

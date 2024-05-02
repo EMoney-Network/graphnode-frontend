@@ -19,7 +19,7 @@ const NavBar = () => {
     { id: 2, text: "Signup" },
   ];
   return (
-    <div className="bg-transparet flex justify-between items-center h-24 mx-auto md:px-10 px-2 text-white">
+    <div className="bg-transparet flex justify-between items-center h-24 mx-auto md:px-12 px-4 text-white fixed w-full t-[20px]">
       {/* Logo */}
       <Image
         src="/images/emoney-logo.png"
