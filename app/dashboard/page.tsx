@@ -1,9 +1,10 @@
 import Button from "@/components/Buttons/Button";
 import StatCard from "@/components/Cards/StatCard";
+import QuestSlider from "@/components/QuestSlider/QuestSlider";
 
 export default function Dashboard() {
   return (
-    <div>
+    <div className="px-5">
       <div
         className="bg-cover bg-center bg-fixed h-screen"
         style={{
@@ -43,8 +44,13 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-10">
         <div className="text-2xl text-white ">Trending Quest</div>
+        <QuestSlider />
+      </div>
+      <div>
+        <div className="text-2xl text-white ">Trending Project</div>
+        <QuestSlider />
       </div>
     </div>
   );

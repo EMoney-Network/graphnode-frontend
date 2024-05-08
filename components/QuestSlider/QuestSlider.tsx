@@ -119,7 +119,7 @@ const QuestSlider = () => {
   };
   return (
     <div>
-      <div className="flex flex-col py-12 gap-5">
+      <div className="flex flex-col py-6 gap-5">
         <div className="mx-0 ">
           <Slider {...settings}>
             {data.map((item, index) => (
